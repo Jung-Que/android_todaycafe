@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShareActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안녕하세요! \n 빅데이터 20195249 정현서 입니다"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="주변 카페 소개 및 추천을 해주는 어플입니다!"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="왼쪽에서 오른쪽으로 슬라이드 하면  메뉴창이 나옵니다"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="메인화면에서 슬라이드시 화면이 넘어갑니다."
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="카페 목록 : 클릭시 사이트로 이동할 수 있는 알림을 보여줍니다."
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="카페 예약 : 좌석을 클릭하고 원하시는 날짜에 예약가능합니다."
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="카페 순위 : 아래로 슬라이드 하면 순위가 보입니다."
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/coffee_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="타 프로그램과 연동 시도 중입니다..!"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="유니티, 외부DB 등.. "/>
+
+    <android.widget.Button
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="뒤로가기"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:background="@drawable/button_pattern"
+        android:id="@+id/backGuide"/>
+
+</LinearLayout>

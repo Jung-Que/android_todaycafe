@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="내 정보"
+        android:id="@+id/myInfo" />
+    <item
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="앱 소개"
+        android:id="@+id/guide" />
+    <item
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="카페 사진"
+        android:id="@+id/photo"/>
+    <item
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="검색"/>
+    <item
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="앱 공유하기"
+        android:id="@+id/share"/>
+</menu>
